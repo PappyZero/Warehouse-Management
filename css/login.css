@@ -1,0 +1,176 @@
+/* Quickie Text Color. */
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: #E1E1E1;
+}
+
+.text-pink {
+    color: rgba(236, 156, 156, 0.89);
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: #005EF9;
+}
+
+.text-deco {
+    text-decoration: none;
+}
+
+.text-deco a {
+    text-decoration: none;
+}
+
+
+/* Quickie Text Color ends here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../image/wms_bg.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: larger;
+}
+
+
+/* Top Nav and the logo/brand image. */
+
+.top_nav_bar {
+    background-color: white;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 0;
+}
+
+.top_nav img {
+    width: 150px;
+    margin: 0;
+    justify-content: center;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    animation: animate_Bg 5s linear infinite;
+}
+
+@keyframes animate_Bg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+/* Top Nav and the logo/brand image ends here. */
+
+
+/* Container class of the form starts here */
+
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+}
+
+@media screen and (max-width:768) {
+    .container {
+        width: 25rem;
+    }
+}
+
+.container h1 {
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container form a {
+    color: white;
+    margin-top: 5px;
+}
+
+.container form input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 1.2rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.container form input::placeholder {
+    color: white;
+}
+
+.container form [type="submit"] {
+    background: #3B82F6;
+    transition: all 500% ease;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0043B1;
+}
+
+.container form small {
+    display: block;
+    margin-top: 2rem;
+    opacity: 0.7;
+}
+
+.container form small a {
+    color: rgba(236, 156, 156, 0.89);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container form small a:hover {
+    text-decoration: underline;
+}
+
+
+/* Container class of the form ends here */
+
+
+/* signin and signup class starts here */
+
+.signin {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgba(48, 30, 30, 0.1);
+    border: 2px solid rgba(3, 53, 73, 0.5);
+    padding: 5rem 2rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(5px);
+    animation: pappy 1s ease-in-out forwards;
+}
+
+
+/* signin and signup class ends here */

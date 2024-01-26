@@ -1,0 +1,84 @@
+/* Quickie Text Color. */
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: #E1E1E1;
+}
+
+.text-pink {
+    color: rgba(236, 156, 156, 0.89);
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: #005EF9;
+}
+
+.text-deco {
+    text-decoration: none;
+}
+
+.text-deco a {
+    text-decoration: none;
+}
+
+
+/* Quickie Text Color ends here. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: larger;
+}
+
+
+/* Top Nav and the logo/brand image. */
+
+.top_nav_bar {
+    background-color: white;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 0;
+}
+
+.top_nav img {
+    width: 150px;
+    margin: 0;
+    justify-content: center;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    animation: animate_Bg 5s linear infinite;
+}
+
+.top_nav span {
+    animation: animate_Bg 5s linear infinite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+@keyframes animate_Bg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+/* Top Nav and the logo/brand image ends here. */
