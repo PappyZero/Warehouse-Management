@@ -74,24 +74,6 @@
                     <a href="#" class="btn btn-primary" style="width: 100%;">Supplier</a>
                 </div>
             </div> 
-
-            <div class="card mt-5 ms-2" style="width: 18rem;">
-                <img src="./image/personel.png" class="card-img-top" style="height: 8rem;" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">PERSONEL</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary" style="width: 100%;">Personel</a>
-                </div>
-            </div>
-
-            <div class="card mt-5 ms-2" style="width: 18rem;">
-                <img src="./image/supplier.jpeg" class="card-img-top" style="height: 8rem;" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">SUPPLIERS</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary" style="width: 100%;">Supplier</a>
-                </div>
-            </div> 
         </div>
     </div>
     
